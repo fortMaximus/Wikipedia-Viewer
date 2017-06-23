@@ -20,10 +20,6 @@ function addVal() {
   });
 }
 
-function getResponse() {
-
-}
-
 //edit stuff on page using recieved response/JSON object 
 function render(response) {
   var output = $("#output");
@@ -40,7 +36,4 @@ function render(response) {
 
     output.append('<p id="r-decreption">' + response[2][key] + '</p></div>');
   }
-}
-
-function getRandom() {
 }
